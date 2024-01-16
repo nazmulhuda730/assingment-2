@@ -18,5 +18,12 @@
     .form input{
         margin-left: 0;
     }
+    .populer{
+        flex-direction: column;
+        margin: 0;
+    }
+    .populer-content{
+        padding: 20px;
+    }
 
 }
