@@ -25,5 +25,11 @@
     .populer-content{
         padding: 20px;
     }
+    .choose-img img{
+        width:100%;
+    }
+    .choose-us-container{
+        display: block;
+    }
 
 }
