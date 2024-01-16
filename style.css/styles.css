@@ -46,6 +46,9 @@ nav li a {
     font-weight: 400;
     color: #424247;
 }
+.active a{
+    color: #FF5400;
+}
 
 /* benner section  */
 .benner {
@@ -61,11 +64,12 @@ nav li a {
 
 .bener-content {
     padding-top: 70px;
+    width: 100%;
 }
 
 .bc-l1 {
     color: #fff;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 800;
 }
 
@@ -73,13 +77,14 @@ nav li a {
     color: #fff;
     font-size: 16px;
     font-weight: 400px;
+    padding: 10px 80px 0 80px;
 }
 
 .form {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 10px;
-    margin: 120px 140px;
+    margin: 90px 140px;
     display: flex;
     gap: 20px;
 }
@@ -101,6 +106,9 @@ nav li a {
     background: #FF5400;
     padding: 16px;
     border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 /* populer section  */
@@ -237,11 +245,13 @@ nav li a {
 /* Deals & Discounts section  */
 .deals-discounts {
     max-width: 1170px;
-    margin: 20px auto;
+    margin: 40px auto;
+
 }
 
 .discount-titel {
     text-align: center;
+    padding: 20px 0;
 }
 
 .dsc-l1 {
@@ -273,6 +283,9 @@ nav li a {
     border-radius: 8px;
     background: #FF5400;
     border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 /* simple-perfect sectiom */
