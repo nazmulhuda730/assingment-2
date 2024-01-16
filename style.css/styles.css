@@ -54,8 +54,9 @@ nav li a {
     border-radius: 16px;
     height: 500px;
     max-width: 1170px;
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
+    background-position: center;
 }
 
 .bener-content {
@@ -215,4 +216,45 @@ nav li a {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* Deals & Discounts section  */
+.deals-discounts {
+    max-width: 1170px;
+    margin: 20px auto;
+}
+
+.discount-titel {
+    text-align: center;
+}
+
+.dsc-l1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.dsc-l2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dsc-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dsc-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn-dsc {
+    padding: 14px 22px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
 }
