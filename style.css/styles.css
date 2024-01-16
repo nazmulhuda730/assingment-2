@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1170px;
+
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo p {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel {
+    color: #FF5400;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424247;
+}
+
+/* benner section  */
+.benner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+    max-width: 1170px;
+    margin: 20px auto;
+    text-align: center;
+}
+.bener-content{
+    padding-top: 70px;
+}
+.bc-l1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.bc-l2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    margin: 120px 140px;
+    display: flex;
+    gap: 20px;
+}
+
+.form input {
+    padding: 16px 0;
+    margin-left: 130px;
+    border-radius: 8px;
+}
+
+.form select {
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.btn-find {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px;
+    border: none;
+}
+
+
+
+
+
+

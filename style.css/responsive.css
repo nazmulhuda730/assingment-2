@@ -1,0 +1,22 @@
+@media screen and (max-width:576px) {
+    .nav-section {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+    .bener-content{
+        padding-top: 20px;
+    }
+    .form{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form input{
+        margin-left: 0;
+    }
+
+}
