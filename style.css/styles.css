@@ -284,8 +284,9 @@ nav li a {
     align-items: center;
     gap: 5px;
 }
-.perfect-conteiner{
-    /* padding: 20px; */
+
+.perfect-conteiner {
+    padding: 20px;
 }
 
 .per-l1 {
@@ -316,4 +317,137 @@ nav li a {
     border: none;
     border-radius: 8px;
     background: #FF5400;
+}
+
+.simple-vdo {
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Newsletter section  */
+.Newsletter {
+    width: 1170px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.new-form {
+    padding: 40px;
+    color: #FFF;
+    background-color: #f3eeee;
+    border-radius: 15px;
+}
+
+.new-titel {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.new-description {
+    margin-bottom: 30px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.new-input {
+    border-top: solid 1.5px rgba(19, 19, 24, 0.10);
+    ;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0 50px;
+    gap: 8px;
+}
+
+.new-input input {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-sub {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.new-img {
+    position: relative;
+}
+
+.img-discount {
+    border: #FF5400 2px solid;
+    color: #FFF;
+    background-color: #FF5400;
+    text-align: center;
+    width: 324px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+    rotate: -20deg;
+}
+
+.dis-l1 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.dis-l2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* footer section  */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    height: 400px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.fotter-heder {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.footer-logo p {
+    color: #131318;
+    font-size: 32px;
+}
+
+.icon {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.icon i {
+    padding: 20px;
+}
+
+.copy {
+    border-top: 1.5px solid rgba(19, 19, 24, 0.10);;
+    padding-top: 40px;
+    text-align: center;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 150px;
 }
